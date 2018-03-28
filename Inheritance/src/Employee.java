@@ -18,8 +18,14 @@ public class Employee {
 	public double getSalary() {
 		return salary;
 	}
+
 	public Date getHireDay() {
 		return hireDay;
+	}
+
+	public void raiseSalary(double byPercent) {
+		double raise = salary * byPercent / 100;
+		salary += raise;
 	}
 
 	private String name;

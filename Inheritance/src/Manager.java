@@ -18,7 +18,7 @@ public class Manager extends Employee {
 		bonus = 0;
 	}
 
-	public double getSelery() {
+	public double getSalary() {
 		double baseSalary = super.getSalary();
 		return baseSalary + bonus;
 	}

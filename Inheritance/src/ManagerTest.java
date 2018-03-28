@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 
 public class ManagerTest {
 
@@ -9,7 +9,7 @@ public class ManagerTest {
 
 		Employee[] staff = new Employee[3];
 
-		// filling the array staff of objects Managet and Employee
+		// filling the array staff of objects Manager and Employee
 		staff[0] = boss;
 		staff[1] = new Employee("Trotsyuk Roman", 10000, 2013, 12, 5);
 		staff[2] = new Employee("Oksana Sheremeta", 4000, 2014, 5, 22);
